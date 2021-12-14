@@ -1,0 +1,40 @@
+.root{
+    --main-background-color: whitesmoke;
+    --secondary-background-color: white;
+    --main-text-color: gray;
+    --secondary-text-color: black;
+}
+
+body{
+    position: relative;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.fas{
+    color: silver;
+}
+
+.navbar-bg{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-text{
+    color: silver;
+}
+
+.button-color{
+    color: silver;
+}
+
+/* <!-- Navigation - navbar --> */
+{
+    "tags": [
+      "swiper"
+    ],
+    "name": "Swiper - Navigation",
+    "dependencies": {
+      "swiper": "latest",
+      "parcel-bundler": "^1.6.1"
+    }
+}
