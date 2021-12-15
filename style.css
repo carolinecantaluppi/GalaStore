@@ -7,14 +7,15 @@
 
 body{
     position: relative;
-    /* height: 100%; */
+    height: 100%;
     background-color: whitesmoke;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navbar */
-/* .navbar1{
-    height: 5%;
-} */
 
 .fas{
     color: silver;
@@ -33,14 +34,6 @@ body{
 }
 
 /* swiper */
-body {
-    background: #eee;
-    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-}
 
 .text{
     color: gray;
@@ -50,37 +43,15 @@ body {
     width: 1000px;
 }
 .swiper-slide {
-<img src="./img/mac.jpg" class="card-img-top" alt="...">
-height: 50px;
-line-height: 100px;
-text-align: center;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
 }
-.card-height: 100%;
-/* .swiper-slide:nth-child(2) {
-height: 100%;
-}
-.swiper-slide:nth-child(3) {
-background: silver;
-}
-.swiper-slide:nth-child(4) {
-background: whitesmoke;
-}
-.swiper-slide:nth-child(5) {
-background: silver;
-}
-.swiper-slide:nth-child(6) {
-background: whitesmoke;
-}
-.swiper-slide:nth-child(7) {
-background: silver;
-}
-.swiper-slide:nth-child(8) {
-background: whitesmoke;
-}
-.swiper-slide:nth-child(9) {
-background: silver;
-}
-.swiper-slide:nth-child(10) {
-background: whitesmoke; */
 
 
+
+/* Card-swiper */
+.card-image {
+    width: 100%;
+    height: 100%;
+}
