@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name": "Huawei X5",
+        "category": "Elettronica",
+        "price": "120.12"
+    },
+    {
+        "id": 2,
+        "name": "Fiat 500",
+        "category": "Motori",
+        "price": "2000.32"
+    },
+    {
+        "id": 3,
+        "name": "Mazza da Baseball",
+        "category": "Sport",
+        "price": "20.15"
+    }
+]
