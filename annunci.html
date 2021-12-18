@@ -29,7 +29,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-text navbar-bg">
             <div class="container">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
                 <i class="fas fa-apple-alt"></i>
               </a>
                 <a>Store</a>
@@ -42,28 +42,28 @@
                 <a>Solo con Apple</a>
                 <a>Accessori</a>
                 <a>Supporto</a>
-                <a>
+                <a href="http://127.0.0.1:5500/annunci.html">
                   <i class="fas fa-search"></i>
                 </a>
-                <a>
+                <a href="http://127.0.0.1:5500/carrello.html">
                   <i class="fas fa-shopping-bag"></i>
                 </a>
             </div>
-          </nav>
+        </nav>
       
           <!-- Navigation - navbar -->
-          <nav class="navbar navbar-white bg-white">
+        <nav class="navbar navbar-white bg-white" style="text-align: center;">
             <div id="carouselExampleControlsNoTouching" class="carousel slide container" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="justify-content: center;">
+                        <small>Permuta il tuo dispositivo idoneo in cambio di un credito da utilizzare per il tuo prossimo acquisto.1 Scopri di più</small>
+                    </div>
+                
       
-              <div class="carousel-inner">
-                <div class="carousel-item active" style="justify-content: center;">
-                  <small>Permuta il tuo dispositivo idoneo in cambio di un credito da utilizzare per il tuo prossimo acquisto.1 Scopri di più</small>
+                    <div class="carousel-item">
+                        <small>Vuoi ricevere i tuoi regali in tempo per Natale? Scopri entro quando ordinare</small>
+                    </div>
                 </div>
-      
-                <div class="carousel-item">
-                <small>Vuoi ricevere i tuoi regali in tempo per Natale? Scopri entro quando ordinare</small>
-                </div>
-              </div>
       
               <button class="carousel-control-prev button-color" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -77,35 +77,33 @@
             </div>
         </nav>
             
-        <main class="container">
-            <h1>Annunci</h1>
+        <main class="container mt-5">
+            <h1 style="color: gray;">Annunci</h1>
         </main>
     
-        <div class="container">
+        <div class="container mt-3">
             <div class="row">
-                <div class="col-12 col-md-4 border border-dark">
+                <div class="col-12 col-md-4 border border-gray">
                     <!-- Filtri -->
                     <div id="filterWrapper" class="width-container">
-                        <h3>Categorie</h3>
+                        <h3 class="h3-color">Categorie</h3>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="All" checked>
-                            <label class="form-check-label" for="All">
-                              Tutte le categorie
-                            </label>
+                            <label class="form-check-label" for="All">Tutte le categorie</label>
                         </div>
                     </div>
                     
                     <div class="width-container">
-                        <h3>Prezzo</h3>
-                        <label for="rangeInputValue" class="form-label" id="labelInput">0 €</label>
-                        <input type="range" class="form-range" id="rangeInputValue" min="0" max="5" value="0" step="100">
+                        <h3 class="h3-color">Prezzo</h3>
+                        <label for="customRange1" class="form-label">0 - 5000</label>
+                        <input type="range" class="form-range" id="customRange1">
                     </div>
                     
                     <div class="width-container">
-                        <h3>Nome</h3>
+                        <h3 class="h3-color">Nome</h3>
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input id="inputWord" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="basic-addon1"></span>
+                            <input id="inputWord" type="text" class="form-control" placeholder="Prodotti" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
                     </div>
     
