@@ -1,20 +1,134 @@
 [
     {
         "id":1,
-        "name": "Huawei X5",
-        "category": "Elettronica",
-        "price": "120.12"
+        "name": "MacBook Pro 13''",
+        "category": "Mac",
+        "price": "€ 1.479"
     },
     {
-        "id": 2,
-        "name": "Fiat 500",
-        "category": "Motori",
-        "price": "2000.32"
+        "id":2,
+        "name": "MacBook Pro 14''",
+        "category": "Mac",
+        "price": "€ 2.349"
     },
     {
-        "id": 3,
-        "name": "Mazza da Baseball",
-        "category": "Sport",
-        "price": "20.15"
-    }
+        "id":3,
+        "name": "MacBook Pro 16''",
+        "category": "Mac",
+        "price": "€ 2.349"
+    },
+    {
+        "id": 4,
+        "name": "MacBook Air",
+        "category": "Mac",
+        "price": "€ 1.159"
+    },
+    {
+        "id": 5,
+        "name": "iPad Pro",
+        "category": "iPad",
+        "price": "€ 899"
+    },
+    {
+        "id": 6,
+        "name": "iPad Air",
+        "category": "iPad",
+        "price": "€ 669"
+    },
+    {
+        "id": 7,
+        "name": "iPad ",
+        "category": "iPad",
+        "price": "€ 389"
+    },
+    {
+        "id": 8,
+        "name": "iPad mini",
+        "category": "iPad",
+        "price": "€ 559"
+    },
+    {
+        "id": 9,
+        "name": "iPhone 13 Pro",
+        "category": "iPhone",
+        "price": "€ 1.189"
+    },
+    {
+        "id": 10,
+        "name": "iPhone 13",
+        "category": "iPhone",
+        "price": "€ 839"
+    },
+    {
+        "id": 11,
+        "name": "iPhone 12",
+        "category": "iPhone",
+        "price": "€ 719"
+    },
+    {
+        "id": 12,
+        "name": "iPhone SE",
+        "category": "iPhone",
+        "price": "€ 499"
+    },
+    {
+        "id": 13,
+        "name": "GalaWatch 7",
+        "category": "Watch",
+        "price": "€ 439"
+    },
+    {
+        "id": 14,
+        "name": "GalaWatch SE",
+        "category": "Watch",
+        "price": "€ 309"
+    },
+    {
+        "id": 15,
+        "name": "GalaWatch 3",
+        "category": "Watch",
+        "price": "€ 229"
+    },
+    {
+        "id": 16,
+        "name": "AirPods 2",
+        "category": "AirPods",
+        "price": "€ 149"
+    },
+    {
+        "id": 17,
+        "name": "AirPods 3",
+        "category": "AirPods",
+        "price": "€ 199"
+    },
+    {
+        "id": 18,
+        "name": "AirPods Pro",
+        "category": "AirPods",
+        "price": "€ 279"
+    },
+    {
+        "id": 19,
+        "name": "AirPods Max",
+        "category": "AirPods",
+        "price": "€ 629"
+    },
+    {
+        "id": 20,
+        "name": "GalaTv 4k",
+        "category": "TV & Casa",
+        "price": "€ 149"
+    },
+    {
+        "id": 21,
+        "name": "GalaTv HD",
+        "category": "TV & Casa",
+        "price": "€ 149"
+    },
+    {
+        "id": 22,
+        "name": "HomePod mini",
+        "category": "TV & Casa",
+        "price": "€ 149"
+    },
 ]

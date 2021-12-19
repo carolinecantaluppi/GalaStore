@@ -16,13 +16,18 @@
 // 	}
 // })
 
-// inserendo Swiper -->
+// 
+//**inserendo Swiper -->
+//
 let swiper = new Swiper(".mySwiper", {
     watchSlidesProgress: true,
     slidesPerView: 8,
 });
 
-// collegando annunci.json:
+
+// 
+//**collegando annunci.json:
+//
 fetch('./annunci.json')
   .then(response => response.json())
   .then(data => {                       //per convensione, chiamasi data, che è un array di oggetti.
